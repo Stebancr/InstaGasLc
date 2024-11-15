@@ -9,12 +9,12 @@
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     padding: 20px;
-    padding-top: 60px; /* Ajusta el espacio superior */
+    padding-top: 60px; 
     display: flex;
     justify-content: center;
   }
   
-  /* Barra Estática más delgada */
+ 
   .navbar {
     position: fixed;
     top: 0;
@@ -24,23 +24,23 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 20px;  /* Menor padding para hacer la barra más delgada */
-    z-index: 1000; /* Para que siempre esté encima de otros elementos */
+    padding: 5px 20px;  
+    z-index: 1000; 
     color: white;
-    height: 50px;  /* Ajusta la altura de la barra */
+    height: 50px;  
   }
   
   .navbar .logo img {
     position: center;
-    width: 45px;  /* Reduces el tamaño del logo */
+    width: 45px;  
   }
   
   .navbar .contactos {
     color: white;
     text-decoration: none;
-    font-size: 16px;  /* Tamaño de texto más pequeño */
+    font-size: 16px;  
     font-weight: bold;
-    padding: 5px 10px;  /* Menor padding para el enlace */
+    padding: 5px 10px;  
     border-radius: 5px;
     background-color: #444;
     transition: background-color 0.3s;
@@ -50,7 +50,6 @@
     background-color: #555;
   }
   
-  /* Contenedor Principal */
   .container {
     display: flex;
     flex-direction: column;
@@ -61,7 +60,6 @@
     margin: 0 auto;
   }
   
-  /* Estilo de cada sección */
   .item {
     width: 100%;
     margin-bottom: 20px;
@@ -79,13 +77,11 @@
     margin: 0 auto;
   }
   
-  /* Mejorar la estética de los enlaces e imágenes */
   .item img {
     border-radius: 10px;
     transition: transform 0.3s ease;
   }
   
-  /* Efecto al pasar el ratón */
   .item img:hover {
     transform: scale(1.05);
   }
