@@ -1,9 +1,43 @@
-.home {
+/* Estilo general para la página */
+.Home {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  background-color: #f4f4f4; /* Color de fondo */
+  padding: 20px;
 }
 
+/* Estilo para cada sección */
 .item {
-  display: contents;
-  width: auto;
+  margin: 20px; /* Separación entre los elementos */
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación */
+}
+
+/* Efecto al pasar el mouse sobre un item */
+.item:hover {
+  transform: scale(1.1); /* Aumenta el tamaño */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+/* Imagen dentro de cada sección */
+.image {
+  width: 150px; /* Tamaño de la imagen */
   height: auto;
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  transition: transform 0.3s ease;
+}
+
+/* Efecto al pasar el mouse sobre la imagen */
+.image:hover {
+  transform: scale(1.05); /* Efecto zoom */
+}
+
+/* Para enlaces si necesitas estilo */
+.item a {
+  text-decoration: none;
+  color: inherit;
 }
