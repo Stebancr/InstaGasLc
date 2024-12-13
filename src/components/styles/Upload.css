@@ -1,0 +1,87 @@
+/* Reset de márgenes y padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+  padding-top: 60px; 
+  display: flex;
+  justify-content: center;
+}
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;  
+  z-index: 1000; 
+  color: white;
+  height: 50px;  
+}
+
+.navbar .logo img {
+  position: center;
+  width: 45px;  
+}
+
+.navbar .contactos {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;  
+  font-weight: bold;
+  padding: 5px 10px;  
+  border-radius: 5px;
+  background-color: #444;
+  transition: background-color 0.3s;
+}
+
+.navbar .contactos:hover {
+  background-color: #555;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.item {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.item a {
+  display: block;
+}
+
+.image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.item img {
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.item img:hover {
+  transform: scale(1.05);
+}
