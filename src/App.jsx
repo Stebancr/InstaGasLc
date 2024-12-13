@@ -5,10 +5,11 @@ import HomePage from './pages/HomePage';
 import Calentadores from './pages/Calentadores';
 import Servicios from './pages/Servicios';
 import Instalaciones from './pages/Instalaciones';
+import './App.css';
 
 const App = () => {
   return (
-    <>
+    <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -16,7 +17,7 @@ const App = () => {
         <Route path="/Servicios" element={<Servicios />} />
         <Route path="/Instalaciones" element={<Instalaciones />} />
       </Routes>
-    </>
+    </Router>
   );
 };
 

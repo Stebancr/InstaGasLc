@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../components/Styles/Register.css'
+import '../components/Styles/Servicios.css'
 import authService from '../services/authService.js';
 
 
